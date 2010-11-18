@@ -1,0 +1,6 @@
+Capistrano script I use for deploying changes/themes/plugins/updates across several Wordpress multisite setups I run.  It allows me to easily ensure that all setups are the same.
+
+Requires:
+Ruby
+Capistrano Multistage ( sudo gem install capistrano-ext )
+Railsless Deploy ( sudo gem install railsless-deploy -s http://gemcutter.org )

@@ -1,0 +1,1 @@
+Adds clicky code to wordpress site

@@ -1,0 +1,54 @@
+.sqsbchart {
+  position:relative;
+  text-decoration: none;
+  z-index:200001;
+}
+
+.sqsbchart:hover {
+  z-index:210000;
+
+}
+
+.sqsbchart img {
+  display: none;
+}
+
+.sqsbchart:hover img {
+  display: block;
+  position: absolute;
+  border: 1px solid #000;
+  background-color: #ffe;
+  color: #000;
+  font-family: Arial, "Arial MT", "MS Sans Serif", sans-serif;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.3em;
+  text-align: center;
+  padding: 3px;
+  margin: 20px;
+  top: 0px;
+  left: -125px;
+  z-index: 250000;
+
+}
+
+hr#sqsbhr {
+	display: block;
+}
+
+tr#sqsbevenrow {
+	background-color: #eeeeee; 
+}
+
+/* For K2 Compatibility 
+   - Prevents Overflowed tooltips from being hidden
+   - sb-php line prevents tooltips from being hidden by other sidebar elements
+*/
+
+.columns-three .secondary {
+  overflow: visible;
+}
+
+#stock-quotes {
+  z-index: 250000;
+}

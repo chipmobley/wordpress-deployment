@@ -1,0 +1,70 @@
+/*
+Plugin Name: myReviewsPage
+*/
+/*
+Used to reviews.
+*/
+
+.clear{ clear:both; }
+
+.myReviewsPage_poweredByBadge{
+    float:right;
+    font-size:10px;
+    cursor:pointer;
+}
+.myReviewsPage_badgeLink{
+    font-weight:bolder;
+    font-size:16px;
+}
+
+.myReviewsPage_red{
+    color:#960000;
+}
+.myReviewsPage_black{
+    color:#343434;
+}
+
+#myReviewsPage_options_cols{}
+.myReviewsPage_options_col{
+float:left;
+width:50%;
+}
+
+#myReviewsPage_options_leftcol{}
+
+#myReviewsPage_options_rightcol{}
+
+
+.myReviewsPage_label{
+    font-weight:bold;
+}
+.myReviewsPage_addShortcodeText{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left;
+    max-width:300px;
+}
+.myReviewsPage_addShortcodeShortcode{
+    text-align:center;
+    margin-top:30px;    
+}
+
+
+.reviews table tr td.myReviewsPage-rating,
+.reviews table tr td.myReviewsPage-sitelogo
+{
+    padding-right:14px;
+}
+
+.myReviewPage_dashboard { width:380px; }
+
+.myReviewPage_thanksForVisiting{
+    padding:20px 0px;
+    margin-top:10px;
+}
+
+
+.myReviewsPage-emptyRow,
+.totalReviewsCount{
+display:none;
+}

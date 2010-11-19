@@ -1,0 +1,58 @@
+/*
+Plugin Name: myReviewsPage
+*/
+/*
+Used to style the myReviewsPage admin options pages.
+*/
+
+.myReviewsPage_options_subheader{
+    position:relative;
+}
+.myReviewsPage_options_subheader p.myReviewsPage_options_subheader_links{
+    float:left;   
+}
+
+.myReviewsPage_createBadgeButtonDiv{
+    text-align:center;
+    margin:20px auto;
+}
+/* Give it a bit more WP style */
+.myReviewsPage_advancedSettingsContainer{
+    width:840px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+}
+.myReviewsPage_advancedSettingsContainer .pageCol{
+    width:360px;
+    padding:10px;
+    background:#F1F1F1;
+}
+.myReviewsPage_advancedSettingsContainer .leftCol{
+    width:360px;
+}
+
+.myReviewPage_clickHereForSettings{
+    text-align:center;
+    margin:20px;
+}
+
+.reviews .myReviewsPage-emptyRow{
+display:table-row;
+}
+
+#myReviewsFeedback{
+background-color:#FFFBCC;
+border-color:#E6DB55;
+color:#555555;
+-moz-border-radius:0 0 6px 6px;
+border-style:none solid solid;
+border-width:0 1px 1px;
+font-size:12px;
+line-height:19px;
+margin:0 auto;
+padding:5px 0;
+text-align:center;
+width:80%;
+
+}

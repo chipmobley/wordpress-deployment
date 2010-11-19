@@ -1,0 +1,30 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Header-Footer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-13 11:16+0100\n"
+"PO-Revision-Date: 2008-04-22 09:56+0100\n"
+"Last-Translator: Satollo <satollo@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "head_home"
+msgstr "HTML code to be inserted in the head section of home page"
+
+msgid "head"
+msgstr "HTML code to be inserted in the head section of each page"
+
+msgid "head hint"
+msgstr "(eg. the verification metatag of Google or MSN Webmaster Tools)"
+
+msgid "footer"
+msgstr "HTML code to be inserted in the footer section"
+
+msgid "footer hint"
+msgstr "(eg. the Google Analytics code or the MyBlogLog tracking code)"
+
+msgid "save"
+msgstr "Save"
+

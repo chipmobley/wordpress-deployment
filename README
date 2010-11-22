@@ -1,9 +1,14 @@
-Capistrano script I use for deploying changes/themes/plugins/updates across several Wordpress multisite setups I run.  It allows me to easily ensure that all setups are the same.
+Capistrano script I use for deploying changes/themes/plugins/updates across several Wordpress multisite setups I run.  It allows me to easily ensure that all setups are the same. 
 
 Requires:
 Ruby
 Capistrano Multistage ( sudo gem install capistrano-ext )
 Railsless Deploy ( sudo gem install railsless-deploy -s http://gemcutter.org )
 
- 
+To Setup:
+'/config/deploy' contains the configs for the servers you want to deploy to.  Edit them to suit your needs.
+[ More to add... ]
 
+To Use:
+In this setup there are three servers, deptest, sites, test-cv. To run do 'cap server-name update:start'. for example:
+cap deptest update:start
